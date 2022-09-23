@@ -12,7 +12,6 @@ public class Run {
         for (int i = 0; i<10;i++){
             String s = UUID.randomUUID().toString();
             String s1 = s.split("-")[0];
-            users[i] = new User(s1, s);
         }
         users[7] = user;
         users[8] = user1;

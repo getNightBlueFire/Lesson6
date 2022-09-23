@@ -4,6 +4,7 @@ public class TestUser extends Person{
     String username;
 
     public TestUser(String username) {
+        super();
         this.username = username;
     }
 

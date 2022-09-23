@@ -1,3 +1,5 @@
+import login.ATM;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -42,13 +44,10 @@ public class Main {
 //        System.out.println(Printable.test1);
 
 
-            ByModem modem = new ByModem();
-            Connect connect = new ByModem();
-
-
-
-            Modem modem1 = new ByModem();
-
+        ATM at = new ATM(20,1,5);
+        at.showInfoAboutCash();
+        at.withdrawCash(550);
+        at.showInfoAboutCash();
     }
 
 

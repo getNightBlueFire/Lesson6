@@ -4,10 +4,7 @@ public class User extends Person{
     String username;
     String password;
 
-    public User(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
+
 
     @Override
     public void login() {

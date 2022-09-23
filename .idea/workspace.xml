@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f704db9b-d919-4646-94fa-6ebd5e8f200f" name="Changes" comment="i-">
-      <change afterPath="$PROJECT_DIR$/src/ByModem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Testable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/User.java" afterDir="false" />
+    <list default="true" id="f704db9b-d919-4646-94fa-6ebd5e8f200f" name="Changes" comment="7 lesson">
+      <change afterPath="$PROJECT_DIR$/src/lesson8/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RunRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/TestUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
+  <component name="RunManager" selected="Application.library.Main">
     <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.Computer" />
       <module name="Lesson3" />
@@ -118,10 +122,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lesson8.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Run" />
+      <module name="Lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="library.Main" />
+      <module name="Lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.library.Main" />
+        <item itemvalue="Application.lesson8.Run" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Run" />
         <item itemvalue="Application.Computer" />
       </list>
     </recent_temporary>
@@ -147,7 +179,10 @@
       <workItem from="1663510001663" duration="2588000" />
       <workItem from="1663521102235" duration="990000" />
       <workItem from="1663608005869" duration="825000" />
-      <workItem from="1663687480491" duration="11983000" />
+      <workItem from="1663687480491" duration="16006000" />
+      <workItem from="1663783668723" duration="15000" />
+      <workItem from="1663872797802" duration="687000" />
+      <workItem from="1663947300077" duration="9700000" />
     </task>
     <task id="LOCAL-00001" summary="i-">
       <created>1663355577437</created>
@@ -156,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663355577437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="7 lesson">
+      <created>1663701305118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663701305118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,20 +217,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i-" />
-    <option name="LAST_COMMIT_MESSAGE" value="i-" />
+    <MESSAGE value="7 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 lesson" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>158</line>
+          <line>157</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/login/Run.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson8/Register.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
