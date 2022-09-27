@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f704db9b-d919-4646-94fa-6ebd5e8f200f" name="Changes" comment="7 lesson">
-      <change afterPath="$PROJECT_DIR$/src/lesson8/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/RunRegister.java" afterDir="false" />
+    <list default="true" id="f704db9b-d919-4646-94fa-6ebd5e8f200f" name="Changes" comment="add oop principle">
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson9/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/TestUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson9" />
       <recent name="comp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -88,20 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.library.Main">
-    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.Computer" />
-      <module name="Lesson3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.lesson9.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lesson3" />
@@ -135,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lesson9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9.Main" />
+      <module name="Lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.Main" />
       <module name="Lesson3" />
@@ -150,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson9.Main" />
         <item itemvalue="Application.library.Main" />
         <item itemvalue="Application.lesson8.Run" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Run" />
-        <item itemvalue="Application.Computer" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +173,9 @@
       <workItem from="1663687480491" duration="16006000" />
       <workItem from="1663783668723" duration="15000" />
       <workItem from="1663872797802" duration="687000" />
-      <workItem from="1663947300077" duration="9700000" />
+      <workItem from="1663947300077" duration="11240000" />
+      <workItem from="1664001627268" duration="264000" />
+      <workItem from="1664292884320" duration="10615000" />
     </task>
     <task id="LOCAL-00001" summary="i-">
       <created>1663355577437</created>
@@ -198,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663701305118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add oop principle">
+      <created>1663957942499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663957942499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i-" />
     <MESSAGE value="7 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 lesson" />
+    <MESSAGE value="add oop principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add oop principle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

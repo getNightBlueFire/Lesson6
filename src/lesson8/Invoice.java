@@ -4,11 +4,11 @@ public class Invoice extends Document {
     private int result;
     private int code;
 
-    public int getCode(){
+    public int getCode() {
         return code;
     }
 
-    public void setResult(int result){
+    public void setResult(int result) {
         this.result = result;
     }
 
@@ -25,5 +25,16 @@ public class Invoice extends Document {
         System.out.println("This date " + this.date);
         System.out.println("This result " + this.result);
         System.out.println("This department code " + this.code);
+    }
+
+    protected void docInfo(String test) {
+        System.out.println("This number of document " + this.numDoc);
+        System.out.println("This date " + this.date);
+        System.out.println("This result " + this.result);
+        System.out.println("This department code " + this.code);
+    }
+
+    public void test4() {
+
     }
 }

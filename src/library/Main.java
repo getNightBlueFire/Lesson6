@@ -16,9 +16,13 @@ public class Main {
 //        System.out.println(library.getReaders()[1]);
 //        System.out.println(library.getReaders()[2]);
 //
-//        System.out.println(library.getReaders()[0]);
         library.takeBook(1234567, 5);
 
+
+        library.returnBook(1234567);
+
+
+        System.out.println(library.getReaders()[0]);
 
 
     }
