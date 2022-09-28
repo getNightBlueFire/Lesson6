@@ -1,70 +1,53 @@
-import java.util.Arrays;
+import login.ATM;
 
 public class Main {
     public static void main(String[] args) {
 
-
-//        Transport myTs = new Transport();
-//        Transport other = new Transport();
-        Transport one = new Transport("audi", 100000);
-
-//        myTs.owner = "I";
-//        myTs.color = "red";
-//        myTs.name = "bmw";
-//        myTs.price = 10000;
+//        Phone a = new Phone("1234567", "red", 123);
+//        Phone b = new Phone("1234568", "blue", 122);
+//        Phone c = new Phone("1234569", "black", 121);
+//        Phone c0 = new Phone("2234569", "black", 121);
+//        Phone c1 = new Phone("3234569", "black", 121);
+//        Phone c2 = new Phone("4234569", "black", 121);
+//        Phone c3 = new Phone("5234569", "black", 121);
+//        c.name = "Test";
+//        Phone c5 = new Phone();
+//        Phone c6 = new Phone();
 //
-//        other.owner = "I dont know";
-//        other.color = "not red";
-//        other.name = "not bmw";
-//        other.price = 1_000_000;
 //
-//        if(myTs.price > one.price){
-//            System.out.println(myTs.name + " is coool");
-//        } else {
-//            System.out.println(one.name + " is coool");
+//        a.receiveCall(b);
 //
-//        }
+//        System.out.println();
+//        a.receiveCall(c.getNumber(), c.getName());
+//
+//
+//        a.sendMessage(b, c, c2, c0, c3);
+//
+//        System.out.println(c1.getName());
+//        System.out.println(c2.getName());
+//        System.out.println(c3.getName());
+//        System.out.println(c.getName());
+//        System.out.println(c5.getNumber());
+//
+//        System.out.println(c5.equals(c6));
+//
+//
+//        Matrix matrix0 = new Matrix(3, 3);
+//        Matrix matrix1 = new Matrix(3, 3);
+//
+//        matrix0.printMatrix();
+//        matrix1.printMatrix();
+//        Matrix plus = matrix0.plus(matrix1);
+//        plus.printMatrix();
 
-        //one.move();
-
-
-        Phone a = new Phone("1234567", "red", 123);
-        Phone b = new Phone("1234568", "blue", 122);
-        Phone c = new Phone("1234569", "black", 121);
-        Phone c0 = new Phone("2234569", "black", 121);
-        Phone c1 = new Phone("3234569", "black", 121);
-        Phone c2 = new Phone("4234569", "black", 121);
-        Phone c3 = new Phone("5234569", "black", 121);
-        Phone c4 = new Phone("5234569", "black", 121);
-        c.name = "Test";
-        Phone c5 = new Phone();
-        Phone c6 = new Phone();
-
-
-        a.receiveCall(b);
-
-        System.out.println();
-        a.receiveCall(c.getNumber(), c.getName());
-
-
-        a.sendMessage(b, c, c2, c0, c3);
-
-        System.out.println(c1.getName());
-        System.out.println(c2.getName());
-        System.out.println(c3.getName());
-        System.out.println(c.getName());
-        System.out.println(c5.getNumber());
-
-        System.out.println(c5.equals(c6));
+//        Printable.test3();
+//        System.out.println(Printable.test1);
 
 
-        Matrix matrix0 = new Matrix(3, 3);
-        Matrix matrix1 = new Matrix(3, 3);
-
-        matrix0.printMatrix();
-        matrix1.printMatrix();
-        Matrix plus = matrix0.plus(matrix1);
-        plus.printMatrix();
+        ATM at = new ATM(20,1,5);
+        at.showInfoAboutCash();
+        at.withdrawCash(550);
+        at.showInfoAboutCash();
     }
 
 

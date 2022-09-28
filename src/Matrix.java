@@ -11,7 +11,7 @@ public class Matrix {
         this.n = n;
         this.k = k;
         this.content = new int[n][k];
-        init();
+        //init();
     }
 
     void init(){

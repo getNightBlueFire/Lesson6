@@ -4,6 +4,32 @@ public class Phone {
     String number;
     String model;
     int weight;
+    int test;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Phone phone = (Phone) o;
+
+        if (weight != phone.weight) return false;
+        if (test != phone.test) return false;
+        if (!Objects.equals(number, phone.number)) return false;
+        if (!Objects.equals(model, phone.model)) return false;
+        return Objects.equals(name, phone.name);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = number != null ? number.hashCode() : 0;
+        result = 31 * result + (model != null ? model.hashCode() : 0);
+        result = 31 * result + weight;
+        result = 31 * result + test;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        return result;
+    }
+
     String name = "default";
 
     {
@@ -51,25 +77,4 @@ public class Phone {
         System.out.println();
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Phone phone = (Phone) o;
-
-        if (weight != phone.weight) return false;
-        if (!Objects.equals(number, phone.number)) return false;
-        if (!Objects.equals(model, phone.model)) return false;
-        return Objects.equals(name, phone.name);
-    }
-
-    @Override
-    public int hashCode() {
-        int result = number != null ? number.hashCode() : 0;
-        result = 31 * result + (model != null ? model.hashCode() : 0);
-        result = 31 * result + weight;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        return result;
-    }
 }
